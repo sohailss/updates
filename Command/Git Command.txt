@@ -1,0 +1,21 @@
+git checkout -b <new-branch-name> It will create a new branch from your current branch
+git checkout -b <new-branch-name> <from-branch-name>
+git push -u origin <branch-name>
+git fetch git checkout <branch-name>
+git config --global push.default current
+git push -u
+
+
+git status
+git branch
+git switch <branch-name>
+
+git commit -m "Connection string has been added"
+
+git merge origin/<branch-name> 
+
+
+git config --global user.email
+git config --global user.name
+git remote set-url origin https://sohailss@github.com/sohailss/updates.git
+git push -u
