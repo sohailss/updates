@@ -19,3 +19,13 @@ git config --global user.email
 git config --global user.name
 git remote set-url origin https://sohailss@github.com/sohailss/updates.git
 git push -u
+
+git config --global --list
+
+git clone <repo> <directory>
+git clone --branch <tag> <repo>
+
+1) To view all available remote branches (e.g. 'remote-branch-name')
+git branch -r
+2) Create a local branch using remote branch name
+git fetch && git checkout 'remote-branch-name'
