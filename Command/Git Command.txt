@@ -29,3 +29,18 @@ git clone --branch <tag> <repo>
 git branch -r
 2) Create a local branch using remote branch name
 git fetch && git checkout 'remote-branch-name'
+
+
+******** Push Existing Local Repo to Cloud Github, DevOps etc. ***********
+
+git init
+git status
+git add .
+git status
+git commit -m "Initial Code"
+git log
+Push Existing Repository on DevOps Repo or Github
+First Time it will as you to login
+git push -u origin --all
+git push origin master 
+
